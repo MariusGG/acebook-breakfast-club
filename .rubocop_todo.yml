@@ -154,3 +154,7 @@ Style/WordArray:
 # URISchemes: http, https
 Metrics/LineLength:
   Max: 150
+
+AllCops:
+  Excludes:
+    - db/schema.rb
