@@ -23,6 +23,13 @@ RSpec.describe PostsController, type: :controller do
       expect(response).to redirect_to(posts_url)
     end
 
+    it "redirects back to new if post is not created" do
+      user = create(:user)
+      sign_in user
+      post :create, params: { post: { message: nil } }
+      expect(response).to render_template('new')
+    end
+
     it "creates a post" do
       user = create(:user)
       sign_in user
