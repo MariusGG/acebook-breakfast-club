@@ -12,11 +12,11 @@ RSpec.describe CommentsController, type: :controller do
   end
 
   describe 'creating comments' do
-    it "redirects if comment creation is successful" do
+    it 'redirects if comment creation is successful' do
       user = create(:user)
       sign_in user
       post1 = create(:post)
-      post :create, params: { post_id: post1.id, comment: { body: "Hello, world!", user_id: user.id } }
+      post :create, params: { post_id: post1.id, comment: { body: 'Hello, world!', user_id: user.id } }
       expect(response).to have_http_status(302)
     end
 
