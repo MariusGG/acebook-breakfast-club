@@ -1,4 +1,4 @@
-# AceBook
+# AceBook!  [![Build Status](https://travis-ci.org/chloeverity/acebook-breakfast-club.svg?branch=master)](https://travis-ci.org/chloeverity/acebook-breakfast-club)
 
 This is a 2-week engineering project we undertook at Makers - the task being to create a basic clone of our favourite privacy-invading social network. This is a Ruby on Rails project primarily, but we used jQuery and CoffeeScript to handle client-side rendering and asynchronous behaviour. 
 
