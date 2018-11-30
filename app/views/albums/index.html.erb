@@ -4,6 +4,6 @@
 
 <% @albums.reverse.each do |album| %>
   <%= link_to user_album_path(current_user, album) do  %>
-    <span id='album-name'><strong><%=simple_format(album.name) %></strong></span>
+    <span id='album-name'><strong><%=simple_format(album) %></strong></span>
   <% end %>
 <% end %>
