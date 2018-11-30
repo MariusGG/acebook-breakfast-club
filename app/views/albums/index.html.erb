@@ -6,4 +6,5 @@
   <%= link_to user_album_path(current_user, album) do  %>
     <span id='album-name'><strong><%=simple_format(album.name) %></strong></span>
   <% end %>
+  <%= link_to 'Delete', user_album_path(current_user, album), method: :delete %>
 <% end %>
