@@ -45,9 +45,9 @@ Here is a diagram that models a user making a POST request to our app to make a 
 ![image](https://i.imgur.com/gzqKsEr.png)
 
 ## Our learning logs
-Our card wall for the project is [here.](https://waffle.io/chloeverity/acebook-breakfast-club)
-[Here](https://github.com/chloeverity/acebook-breakfast-club/wiki) is our learning log that we updated each day.
-[Here](https://medium.com/the-breakfast-club-acebook-blog) is our blog that we kept with occasional posts.
+- [Here](https://waffle.io/chloeverity/acebook-breakfast-club) is our card wall for the project
+- [Here](https://github.com/chloeverity/acebook-breakfast-club/wiki) is our learning log that we updated each day.
+- [Here](https://medium.com/the-breakfast-club-acebook-blog) is our blog that we kept with occasional posts.
 
 ## Installing and running the app
 
