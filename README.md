@@ -10,7 +10,7 @@ Our app has the following features:
  - Signing up
  - Logging in / out
  - Creating, updating and deleting posts
- - Creating, updating and deleting comments
+ - Creating, updating and deleting comments on posts
  - Liking and unliking posts using jQuery
  - Live chat in user-created chatrooms, using Action Cable and CoffeeScript
  - Creating photo albums and uploading photos using Active Storage
