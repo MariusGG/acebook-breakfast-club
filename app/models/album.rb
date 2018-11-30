@@ -3,5 +3,5 @@ class Album < ApplicationRecord
                    length: { minimum: 1 }
   belongs_to :user
 
-  has_many_attached :photos
+  has_many_attached :photos, dependent: :destroy
 end

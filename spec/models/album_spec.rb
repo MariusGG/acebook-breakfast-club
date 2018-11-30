@@ -1,5 +1,13 @@
 require 'rails_helper'
 
 RSpec.describe Album, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it 'belongs to a user' do
+    association = described_class.reflect_on_association(:user).macro
+    expect(association).to eq :belongs_to
+  end
+
+  it 'is not valid unless it has a name' do
+    album = described_class.new(name: nil)
+    expect(album).not_to be_valid
+  end
 end

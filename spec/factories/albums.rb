@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :album do
-    name { "MyString" }
-    user { nil }
+    name { 'MyString' }
+    user
   end
 end

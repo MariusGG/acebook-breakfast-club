@@ -2,5 +2,7 @@
 <br><br>
 
 <% @album.photos.each do |photo| %>
-<%= image_tag photo, class: 'album-photo' %>
+  <%= link_to url_for(photo) do %>
+    <%= image_tag photo, class: 'album-photo' %>
+  <% end %>
 <% end %>
