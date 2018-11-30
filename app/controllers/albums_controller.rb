@@ -21,7 +21,7 @@ class AlbumsController < ApplicationController
     if @album.save
       redirect_to user_album_path(@user, @album)
     else
-      render 'show'
+      render 'new'
     end
   end
 
